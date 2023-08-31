@@ -7,7 +7,6 @@
 	É criado uma api para comunicar com o front-end, que está sendo desenvolvido em React JS e mobile.
 </h4>
 
-
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -81,9 +80,9 @@ Nest é um projeto de código aberto licenciado pelo MIT. Pode crescer graças a
 
 ## Manter contato
 
-- Autor - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+-   Autor - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+-   Website - [https://nestjs.com](https://nestjs.com/)
+-   Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## Licença
 
@@ -102,14 +101,11 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
         width="100px;"
         alt="Silvanei Martins"
     />
-    <br />
 </a>
-     <a href="https://github.com/SilvaneiMartins" title="Silvanei martins" >
-        <br />
-        <sub style="font-size: 20px; font-weight: bold">
-            👨‍🚀
-            <b>Silvanei Martins</b>
-        </sub>
- </a>
+<a href="https://github.com/SilvaneiMartins" title="Silvanei martins" >
+    <sub style="font-size: 20px; font-weight: bold">
+        👨‍🚀 <b>Silvanei Martins</b>
+    </sub>
+</a>
 <br />
 🚀 Feito com muito ❤️!
