@@ -77,7 +77,7 @@ $ yarn run test:cov
 
 ## Suporte
 
-Nest é um projeto de código aberto licenciado pelo MIT. Pode crescer graças aos patrocinadores e ao apoio de patrocinadores incríveis. Se você quiser se juntar a eles, por favor[read more here](https://docs.nestjs.com/support).
+Nest é um projeto de código aberto licenciado pelo MIT. Pode crescer graças aos patrocinadores e ao apoio de patrocinadores incríveis. Se você quiser se juntar a eles, por favor [leia mais aqui](https://docs.nestjs.com/support).
 
 ## Manter contato
 
