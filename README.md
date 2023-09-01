@@ -102,6 +102,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
         alt="Silvanei Martins"
     />
 </a>
+<br />
 <a href="https://github.com/SilvaneiMartins" title="Silvanei martins" >
     <sub style="font-size: 20px; font-weight: bold">
         👨‍🚀 <b>Silvanei Martins</b>
