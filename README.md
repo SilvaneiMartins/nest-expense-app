@@ -7,9 +7,17 @@
 	É criado uma api para comunicar com o front-end, que está sendo desenvolvido em React JS e mobile.
 </h4>
 
+
+# Imagem dos Scripts
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
+
+<h1 align="center">
+    <a href="https://imgur.com/Mik8N4Q"><img src="https://i.imgur.com/Mik8N4Q.png" title="source: imgur.com" /></a>
+    <br />
+</h1>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
