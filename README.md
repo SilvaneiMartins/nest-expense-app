@@ -4,8 +4,13 @@
 
 <h4 align="center">
 	🚧  Os projeto estão sendo desenvolvido...  🚧 <br />
-	É criado uma api para comunicar com o front-end, que está sendo desenvolvido em React JS e mobile.
 </h4>
+
+# Informações do Projeto
+
+É criado uma api para comunicar com o front-end, que está sendo desenvolvido em React JS e mobile. O projeto está sendo desenvolvido com o framework Nest JS, que é um framework para desenvolvimento de aplicações back-end em Node JS, utilizando a linguagem TypeScript.
+
+O projeto vai ser desenvolvido com o banco de dados MongoDB cloud, que é um banco de dados não relacional, que armazena os dados em documentos JSON.
 
 
 # Imagem dos Scripts
@@ -86,12 +91,6 @@ $ yarn run test:cov
 
 Nest é um projeto de código aberto licenciado pelo MIT. Pode crescer graças aos patrocinadores e ao apoio de patrocinadores incríveis. Se você quiser se juntar a eles, por favor [leia mais aqui](https://docs.nestjs.com/support).
 
-## Manter contato
-
--   Autor - [Kamil Myśliwiec](https://kamilmysliwiec.com)
--   Website - [https://nestjs.com](https://nestjs.com/)
--   Twitter - [@nestframework](https://twitter.com/nestframework)
-
 ## Licença
 
 Nest é [Licenciado MIT](LICENSE).
@@ -117,4 +116,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
     </sub>
 </a>
 <br />
-🚀 Feito com muito ❤️!
+🚀 Feito com muito ❤️ e carinho!
