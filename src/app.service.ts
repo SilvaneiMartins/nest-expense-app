@@ -2,6 +2,7 @@ import { v4 as uuid } from "uuid";
 import { Injectable } from '@nestjs/common';
 
 import { data, ReportType } from './data';
+import { ReportResponseDto } from "./dtos/report.dto";
 
 interface Report {
     amount: number;
@@ -15,21 +16,26 @@ interface UpdateReport {
 
 @Injectable()
 export class AppService {
-    getAllReports(type: ReportType) {
+    /** Método para buscar tudo */
+    getAllReports(type: ReportType): ReportResponseDto[] {
         return data.report.filter((report) => {
             return report.type === type;
-        });
+        }).map((report) => new ReportResponseDto(report));
     }
 
-    getReportById(id: string, type: ReportType) {
+    /** Método para buscar por Id */
+    getReportById(id: string, type: ReportType): ReportResponseDto {
         const report = data.report
             .filter((report) => report.type === type)
             .find((report) => report.id === id);
 
-        return report;
+            if (!report) return;
+
+        return new ReportResponseDto(report);
     }
 
-    createReport(type: ReportType, { amount, source }: Report) {
+    /** Método para criar */
+    createReport(type: ReportType, { amount, source }: Report): ReportResponseDto {
         const newReport = {
             id: uuid(),
             amount,
@@ -40,10 +46,12 @@ export class AppService {
         };
 
         data.report.push(newReport);
-        return newReport;
+
+        return new ReportResponseDto(newReport);
     }
 
-    updateReport(type: ReportType, id: string, body: UpdateReport) {
+    /** Método para atualizar */
+    updateReport(type: ReportType, id: string, body: UpdateReport): ReportResponseDto {
         const reportToUpdate = data.report
             .filter((report) => report.type === type)
             .find((report) => report.id === id);
@@ -58,9 +66,10 @@ export class AppService {
             updated_at: new Date(),
         };
 
-        return data.report[reportIndex];
+        return new ReportResponseDto(data.report[reportIndex]);
     }
 
+    /** Método para excluir */
     deleteReport(id: string) {
         const reportIndex = data.report.findIndex((report) => report.id === id);
 
